@@ -1,0 +1,48 @@
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;    
+    display: flex;
+    align-items: center;    
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    .logo{
+      width: 17%;
+      height: 74px;
+      background: transparent url("../../../../assets/images/logo.png") no-repeat;
+    }
+    .search {
+      width: 50%;
+    }
+    ul.login {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+        width: 53%;
+        overflow: hidden;
+        li  {
+          float: right;
+        }
+      
+        li a {
+          display: block;
+          color: rgb(39, 38, 38);
+          text-align: center;
+          padding: 14px 0px;
+          text-decoration: none;
+         
+        }
+       
+      }
+    
+  }
+
+  header:nth-child(1) {
+    padding-left: 0;
+  }
+  header:last-child {
+    padding-right: 0;
+  }
